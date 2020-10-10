@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+    <script>
+        'use strict';
+        const sum = (...args) => {
+            return args.reduce((a, b) => a + b, 0)
+        }
+
+        console.log(sum(1, 5, 8));
+
+        const add = (...arr) => {
+            return arr.reduce((a, b) => a + b, 0)
+        }
+
+        console.log(add(1, 5, 8, 30));
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello World!</h1>
+
+
+
+
+
+    <script>
+        function forecast(arr) {
+            // Only change code below this line
+            let res;
+            res = arr.slice(2, 4);
+            console.log(res);
+            return res;
+        }
+        // Only change code above this line
+        console.log(forecast(['cold', 'rainy', 'warm', 'warm', 'warm', 'sunny', 'sunny', 'sunny', 'cool', 'thunderstorms']));
+
+        
+        let oldArray = ['cold', 'rainy', 'warm', 'warm', 'warm', 'sunny', 'sunny', 'sunny', 'cool', 'thunderstorms'];
+        let newArray = ['one', 'two', 'three', 'one', 'one', 'two', 'four', 'one', ...oldArray];
+
+        console.log(newArray);
+
+
+        let foods = {
+        apples: 25,
+        oranges: 32,
+        plums: 28,
+        bananas: 13,
+        grapes: 35,
+        strawberries: 27
+    };
+  
+    // Only change code below this line
+    console.log(foods);
+    delete foods.oranges
+    delete foods.plums
+    delete foods.strawberries
+    // Only change code above this line
+    console.log(foods);
+    </script>
+</body>
+</html>
